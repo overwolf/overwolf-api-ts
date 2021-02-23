@@ -1,0 +1,16 @@
+{
+    "name": "@overwolf/overwolf-api-ts",
+    "version": "1.0.0",
+    "description": "utilities and wrappers for common Overwolf API tasks",
+    "license": "MIT",
+    "keywords": [
+        "typescript",
+        "npm",
+        "package",
+        "overwolf"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://https://github.com/overwolf/overwolf-api-ts.git"
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "none",
+    "sourceMap": false,
+    "outDir": "./dist",
+    "declaration": true,
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "types": [
+      "@overwolf/types"
+    ],
+    "rootDirs": [
+      "./src"
+    ],
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

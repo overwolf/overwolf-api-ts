@@ -1,15 +1,8 @@
 # @overwolf/overwolf-api-ts
 
-Utilities and wrappers for common Overwolf API tasks.  
-
-## Install
-
-This is the preferred method. Getting type declarations in TypeScript 2.0 and above requires no tools apart from npm.
-
-```
-$ npm i --save-dev @overwolf/overwolf-api-ts
-```
+Utilities and wrappers for everyday Overwolf API tasks.  
 
 ## Usage
 
-
+The official Overwolf sample app uses this package, and any Overwolf app can use it.  
+Also, you are welcome to enhance it and add more features, as many tasks are shared between different OW apps.

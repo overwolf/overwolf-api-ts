@@ -16,6 +16,6 @@
     "main": "./dist/index.js",
     "types": "./dist/index.d.js",
     "devDependencies": {
-        "@overwolf/types": "^2.33.0"
+        "@overwolf/types": "^3.23.1"
     }
 }

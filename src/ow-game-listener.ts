@@ -30,7 +30,7 @@ export class OWGameListener extends OWListener<OWGameListenerDelegate> {
       return;
     }
 
-    if (update.gameInfo.isRunning) {
+    if (update.reason.includes(overwolf.games.enums.GameInfoChangeReason.GameLaunched)) {
       if (this._delegate.onGameStarted) {
         this._delegate.onGameStarted(update.gameInfo)
       }

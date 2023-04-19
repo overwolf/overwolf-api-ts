@@ -59,7 +59,7 @@ export class OWWindow {
   public async close() {
     let that = this;
 
-    return new Promise(async resolve => {
+    return new Promise<void>(async resolve => {
       await that.assureObtained();
       let id: string = <string>that._id;
 

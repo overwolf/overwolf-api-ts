@@ -6,3 +6,13 @@
   version "3.23.1"
   resolved "https://registry.yarnpkg.com/@overwolf/types/-/types-3.23.1.tgz#6afb7050b762cfd705a66e348b74a9205a33dd43"
   integrity sha512-QkmvQONNxH31M0a018Mx23IZrWHvYSgWFwasEsxaQU3TkTiiF2ZqGpirCDBimtqD+Mk5MVWTaX4cmUsIhTgshQ==
+
+tsc@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/tsc/-/tsc-2.0.4.tgz#5f6499146abea5dca4420b451fa4f2f9345238f5"
+  integrity sha512-fzoSieZI5KKJVBYGvwbVZs/J5za84f2lSTLPYf6AGiIf43tZ3GNrI1QzTLcjtyDDP4aLxd46RTZq1nQxe7+k5Q==
+
+typescript@^5.0.4:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.4.tgz#b217fd20119bd61a94d4011274e0ab369058da3b"
+  integrity sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==

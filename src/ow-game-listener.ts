@@ -34,7 +34,7 @@ export class OWGameListener extends OWListener<OWGameListenerDelegate> {
       if (this._delegate.onGameStarted) {
         this._delegate.onGameStarted(update.gameInfo)
       }
-    } else {
+    } else if (update.reason.includes(overwolf.games.enums.GameInfoChangeReason.GameTerminated)) {
       if (this._delegate.onGameEnded) {
         this._delegate.onGameEnded(update.gameInfo)
       }

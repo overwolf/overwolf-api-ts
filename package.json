@@ -1,6 +1,6 @@
 {
     "name": "@overwolf/overwolf-api-ts",
-    "version": "1.3.4",
+    "version": "1.3.5",
     "description": "utilities and wrappers for common Overwolf API tasks",
     "license": "MIT",
     "keywords": [
